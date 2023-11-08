@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    background:radial-gradient(white, black);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+}
+
+
+header{
+    background-image:url(https://res.cloudinary.com/soundbetter/image/upload/c_fill,f_auto,g_face:auto,h_630,q_90,w_1200/v1572978193/assets/photos/203128/studio.jpg);
+    background-size: cover;
+    background-position-y: 10px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 88px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    text-shadow: black 3px 6px 6px;
+    
+
+    
+}
+h1{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 33%;
+    height: 100%; 
+}
+
+.container{
+    width: 80%;
+    display: flex;
+
+}
+.center{
+    background:repeating-conic-gradient(black 0%, rgb(128, 21, 53) 13%, rgb(56, 105, 134) 45%) ;
+    float: center;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 40%;
+
+}
+.right{
+    float: right;
+    background: repeating-radial-gradient(rgb(29, 8, 8),black 8px,rgb(75, 143, 131) 10px);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 135px;
+    
+
+
+}
+.left{
+    float: left;
+    background:linear-gradient(grey, black);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 84px;
+    
+}
+footer{
+    /* background: repeating-radial-gradient(slategrey,black 22px,white 5px); */
+    color: thistle;
+    height: 505px;
+    background-image:url(https://i.pinimg.com/550x/77/fd/d5/77fdd522dbed4ef1ba1c4abe737ffebd.jpg) ;
+    
+}
+.logo{
+    float: left;
+    padding-left: 222px;
+    padding-top: 300px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    height: 20%;
+}
+.link{
+    float: right;
+    padding-top: 388px;
+    height: 20%;
+}
